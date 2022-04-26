@@ -1,0 +1,9 @@
+{
+	"name": "multitableprocessdata",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63e1406b-91b6-483c-ae52-86ede3d4a4a8",
+		"tenantId": "49f0aa8b-d5a2-4408-a7b4-6a926559bc39"
+	}
+}
