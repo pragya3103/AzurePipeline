@@ -1,0 +1,9 @@
+{
+	"name": "checkreeee",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8e9788cf-39ea-496a-a16c-4b44611706ee",
+		"tenantId": "49f0aa8b-d5a2-4408-a7b4-6a926559bc39"
+	}
+}
