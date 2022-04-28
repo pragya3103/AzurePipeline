@@ -1,0 +1,9 @@
+{
+	"name": "Apicheck",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b66c6f91-a032-4471-acca-f98aa33b8e41",
+		"tenantId": "49f0aa8b-d5a2-4408-a7b4-6a926559bc39"
+	}
+}

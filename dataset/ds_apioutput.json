@@ -1,0 +1,23 @@
+{
+	"name": "ds_apioutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_apioutput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('apioutput_', formatDateTime(utcnow(), 'yyyy_MM_dd hh:mm tt'))",
+					"type": "Expression"
+				},
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
