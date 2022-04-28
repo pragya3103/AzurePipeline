@@ -49,12 +49,9 @@
 						}
 					},
 					"sink": {
-						"type": "JsonSink",
+						"type": "BinarySink",
 						"storeSettings": {
 							"type": "AzureBlobStorageWriteSettings"
-						},
-						"formatSettings": {
-							"type": "JsonWriteSettings"
 						}
 					},
 					"enableStaging": false
@@ -67,7 +64,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "Binary1",
 						"type": "DatasetReference"
 					}
 				]

@@ -1,0 +1,28 @@
+{
+	"name": "pipeline3",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://api.twitter.com/2/tweets/search/stream/rules",
+					"method": "GET",
+					"headers": {
+						"auth": "AAAAAAAAAAAAAAAAAAAAAD%2ByMgEAAAAAfU%2B%2FEJm8xbhsURJUkIAVHBIScsE%3DclCe7EToZgXZORV4XewrMdK00QOW0fyDFSfgyTnDK5idvK1SWh"
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
